@@ -1,0 +1,46 @@
+.title-label, .custom-label {
+  -fx-font-size:60.0px;
+  -fx-alignment:center;
+}
+
+.custom-label, .winner {
+   -fx-border-color:black;
+   -fx-min-width:70.0px;
+   -fx-min-height:70.0px;
+   -fx-background-radius: 60.0%;
+   -fx-border-radius: 60.0%;
+   -fx-background-color: rgb(255.0,255.0,255.0);
+   -fx-text-fill : white;	
+   
+}
+
+#gpConnect4 {
+	-fx-alignment:center;
+	-fx-pref-height:450.0px;
+	-fx-pref-width:500.0px;	
+	-fx-hgap:2.0px;
+	-fx-vgap:2.0px;
+	
+}
+
+.X{	
+	 -fx-background-color: springGreen;
+	 -fx-text-fill : springGreen;	
+}
+
+.O{	
+	 -fx-background-color: tomato;
+	 -fx-text-fill : tomato	;	
+}
+
+#aPane{
+   -fx-background-color: rgb(111.0,211.0,255.0);
+	
+}
+
+.possibleMove{
+	-fx-text-fill : yellow;
+}
+.winner{
+	-fx-text-fill : red;
+}
